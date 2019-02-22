@@ -11,7 +11,7 @@ def speak(inp_str):
 
     
 if choice=='1':
-    image_path=('D:\Pictures\wallpapers\download (2).jpg')
+    image_path=('Location of the image')
 else:
     from time import sleep as delay
     input("\n\nPress Enter to take shot in 3 sec")
@@ -31,7 +31,7 @@ else:
     speak("Photo captured , you can see it in Desktop , Google vision folder , test.jpg")
     image_path=('test.jpg')
     speak("Kindly wait , I am analyzing the image")
-api_key=str('AIzaSyBe7X9Q38FFfBPPff9gZ4Hto922OjTLHtk')
+api_key=str('Enter API Key')
 
 image=image_analysis(api_key,image_path)
 
